@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <system.webServer>
+        <handlers>
+			<add name="Markdown.AspNet.Handler" path="*.md" verb="GET" type="Markdown.AspNet.Handler.MarkdownAspNetHttpHandler, Markdown.AspNet.Handler"/>
+		</handlers>
+    </system.webServer>
+</configuration>

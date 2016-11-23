@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>irambuk.markdown.aspnet.handler</id>
+    <version>1.0.0</version>
+    <title>Markdown AspNet Handler</title>
+    <authors>irambuk</authors>
+    <owners>irambuk</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <!--<projectUrl>https://github.com/irambuk/markdown.aspnet.handler</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl> -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This project provides a HTTPHandler to convert markdown files in the web site. The markdown files should have .md extension. The project uses Markdown library library for markdown processing</description>
+    <releaseNotes>Initial version</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Markdown Asp.Net HTTPHandler</tags>
+	<dependencies>
+      <dependency id="Markdown" version="2.2.0" />	  
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="readme.txt" target="" />
+	<file src="Web.config.install.xdt" target="content/Web.config.install.xdt" />
+  </files>
+</package>
