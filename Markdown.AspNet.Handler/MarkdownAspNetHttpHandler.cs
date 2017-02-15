@@ -24,7 +24,6 @@ namespace Markdown.AspNet.Handler
             }
 
             var fileContents = File.ReadAllText(requestedFile);
-
             var markdown = new HeyRed.MarkdownSharp.Markdown();
             var content = markdown.Transform(fileContents);
 
